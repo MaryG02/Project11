@@ -49,7 +49,7 @@ class SeriesColl {
         for (int i = 0; i < length; i++)
             if (SeriesColl[i].getSeriesName().contains(keyword)) {
                 SeriesColl[i].getFullDetails();
-            } else System.out.println("There is no objects including this name");
+            } else System.out.println("There is no more objects including this name");
 
     }
 
